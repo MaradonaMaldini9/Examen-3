@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing - Servicio Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header class="top-header">
+    <h1>Servicio de Registro de Usuarios</h1>
+  </header>
+
+  <!-- MENÚ DE NAVEGACIÓN -->
+  <nav class="nav-principal">
+    <div class="nav-logo">LOGO</div>
+
+    <ul class="menu-horizontal">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Planes</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-texto">
+      <h2>Bienvenido a nuestra plataforma</h2>
+      <p>
+        Registra tus datos y gestiona tus servicios de forma rápida y sencilla.
+        Accede a un panel amigable y diseñado para ti.
+      </p>
+    </div>
+    <div class="hero-imagen">
+      <!-- aquí podría ir una imagen -->
+      <div class="hero-caja"></div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE CARACTERÍSTICAS -->
+  <section class="caracteristicas">
+    <h2>¿Qué ofrecemos?</h2>
+
+    <div class="caracteristicas-contenedor">
+      <div class="card">
+        <h3>Seguridad</h3>
+        <p>Protegemos tus datos con buenas prácticas y acceso controlado.</p>
+      </div>
+
+      <div class="card">
+        <h3>Facilidad</h3>
+        <p>Formulario de registro simple y directo para nuevos usuarios.</p>
+      </div>
+
+      <div class="card">
+        <h3>Control</h3>
+        <p>Accede a tu cuenta desde cualquier dispositivo con conexión.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO DE REGISTRO -->
+  <section class="seccion-formulario">
+    <div class="formulario-contenedor">
+      <h2>Formulario de Registro</h2>
+      <p>Complete todos los campos para crear su cuenta.</p>
+
+      <form class="form-registro">
+        <div class="campo">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+
+        <div class="campo">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" placeholder="Ingrese su correo">
+        </div>
+
+        <div class="campo">
+          <label for="pais">País</label>
+          <select id="pais">
+            <option value="">Seleccione un país</option>
+            <option value="pe">Perú</option>
+            <option value="co">Colombia</option>
+            <option value="ar">Argentina</option>
+            <option value="mx">México</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn-registrar">Registrarme</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="footer-contenedor">
+      <div class="footer-col">
+        <h4>Mi Sitio</h4>
+        <p>© 2025 Todos los derechos reservados</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Preguntas frecuentes</a></li>
+          <li><a href="#">Soporte</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Política de privacidad</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

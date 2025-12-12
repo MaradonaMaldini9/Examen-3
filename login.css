@@ -1,0 +1,77 @@
+/* Contenedor principal */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  padding: 1.25rem;
+}
+
+/* Caja del login */
+.login-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.login-box h2 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.login-box p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Inputs */
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+/* Botón */
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #2575fc;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #1c5fcb;
+}
+
+/* Responsive simple */
+@media (max-width: 600px) {
+  .login-container {
+    align-items: flex-start;
+    background: #fff;
+  }
+
+  .login-box {
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 2rem;
+  }
+}
